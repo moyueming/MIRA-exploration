@@ -1,7 +1,0 @@
-{
-  "name": "fixed_seed_4",
-  "seed": 4,
-  "samples_per_file": 100,
-  "target_count": 13516,
-  "source_rule": "All non-fixed JSON files in target_dir; fixed_*.json files are excluded."
-}
