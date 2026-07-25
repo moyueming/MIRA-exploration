@@ -30,7 +30,7 @@ python run_atena_baselines.py \
   --method pure_a3c \
   --schema cyber \
   --dataset_number 1 \
-  --workers 28 \
+  --workers 16 \
   --seed 0 \
   --steps 1000000
 ```
@@ -40,7 +40,7 @@ python run_atena_baselines.py \
 ```bash
 METHODS="random greedy dora pure_a3c" \
 SCHEMAS="cyber flights" DATASETS="1 2 3 4" \
-WORKERS=28 SEED=0 STEPS=1000000 bash scripts/run_baselines.sh
+WORKERS=16 SEED=0 STEPS=1000000 bash scripts/run_baselines.sh
 ```
 
 Results are written to:

@@ -15,7 +15,7 @@ Run from `ATENA_dataset`:
 python MIRA/run.py \
   --schema cyber \
   --dataset_number 1 \
-  --workers 28 \
+  --workers 16 \
   --seed 0 \
   --steps 1000000 \
   --avp 0

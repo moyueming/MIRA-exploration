@@ -128,8 +128,8 @@ is not part of the paper protocol.
 cd ATENA_dataset
 bash scripts/setup_venv.sh
 source .venv/bin/activate
-python MIRA/run.py --schema cyber --dataset_number 1 --workers 28 --seed 0 --steps 1000000 --avp 0
-python run_atena_baselines.py --method pure_a3c --schema cyber --dataset_number 1 --workers 28 --seed 0 --steps 1000000
+python MIRA/run.py --schema cyber --dataset_number 1 --workers 16 --seed 0 --steps 1000000 --avp 0
+python run_atena_baselines.py --method pure_a3c --schema cyber --dataset_number 1 --workers 16 --seed 0 --steps 1000000
 ```
 
 The released MIRA parser rejects AVP values other than `0`; the AVP module and

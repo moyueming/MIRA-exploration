@@ -45,7 +45,7 @@ python MIRA/run.py \
 python MIRA/run.py \
   --schema cyber \
   --dataset_number 1 \
-  --workers 28 \
+  --workers 16 \
   --seed 0 \
   --steps 1000000 \
   --avp 0
@@ -55,7 +55,7 @@ Run all eight official datasets:
 
 ```bash
 SCHEMAS="cyber flights" DATASETS="1 2 3 4" \
-WORKERS=28 SEED=0 STEPS=1000000 bash MIRA/scripts/run_all.sh
+WORKERS=16 SEED=0 STEPS=1000000 bash MIRA/scripts/run_all.sh
 ```
 
 Generated files are written below `results/MIRA/` and are intentionally
