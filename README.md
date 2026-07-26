@@ -11,7 +11,7 @@ sources are intentionally excluded.
 | --- | --- | --- |
 | Galaxy | MIRA; no-extrinsic ablation via `--w_ext 0` | Random, Pure A3C, DORA, Greedy EDA, ATENA-style, ATENA-style + extrinsic reward |
 | Covertype | `mira`; `mira_no_ext` | Random, Pure A3C, DORA, Greedy EDA, ATENA-style, ATENA-style + extrinsic reward |
-| Official ATENA | MIRA with AVP fixed off | Official ATENA, Random, Greedy, DORA, Pure A3C |
+| Official ATENA | MIRA  | Official ATENA, Random, Greedy, DORA, Pure A3C |
 
 ## Layout
 
