@@ -38,7 +38,7 @@ parser.add_argument('--target_samples_per_file', type=int, default=100)
 
 # Target-aware ATENA-style compound reward weights.
 # Extrinsic reward is included in policy training and still used as the evaluation metric.
-parser.add_argument('--w_ext', type=float, default=5.0, help="Target-aware extrinsic reward weight")
+parser.add_argument('--w_ext', type=float, default=8.0, help="Target-aware extrinsic reward weight")
 parser.add_argument('--w_int', type=float, default=1.0, help="ATENA interestingness weight")
 parser.add_argument('--w_coh', type=float, default=1.0, help="ATENA coherency weight")
 parser.add_argument('--w_div', type=float, default=1.0, help="ATENA diversity weight")

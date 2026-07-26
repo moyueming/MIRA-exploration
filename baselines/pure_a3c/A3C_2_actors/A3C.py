@@ -31,7 +31,7 @@ def build_parser():
     parser.add_argument("--target_set", type=str, default=None)
     parser.add_argument("--target_seed", type=int, default=None)
     parser.add_argument("--target_samples_per_file", type=int, default=100)
-    parser.add_argument("--w_ext", type=float, default=5.0)
+    parser.add_argument("--w_ext", type=float, default=8.0)
     parser.add_argument("--notes", type=str, default="")
     parser.add_argument("--mode", type=str, default="scattered")
     parser.add_argument("--name", type=str, default="")

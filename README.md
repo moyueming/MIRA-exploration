@@ -13,6 +13,8 @@ sources are intentionally excluded.
 | Covertype | `mira`; `mira_no_ext` | Random, Pure A3C, DORA, Greedy EDA, ATENA-style, ATENA-style + extrinsic reward |
 | Official ATENA | MIRA  | Official ATENA, Random, Greedy, DORA, Pure A3C |
 
+Target-discovery learning methods that consume the common target-aware signal use `w_ext=8`: MIRA, Pure A3C, and ATENA-style + extrinsic reward. DORA retains its original `75FAM-25CUR` reward.
+
 ## Layout
 
 ```text
